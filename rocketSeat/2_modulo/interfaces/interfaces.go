@@ -69,7 +69,7 @@ func main() {
 	fmt.Println(a == nil)
 	fmt.Println(dogPointer == nil)
 	a = dog
-	fmt.Println(a == nil) // false, pois a agora referencia um valor do tipo Dog
+	//fmt.Println(a == nil) // false, pois a agora referencia um valor do tipo Dog
 
 	p := Pedro{}
 	fmt.Println(p) // Aqui vai printar "Olá, eu sou o Pedro!" pois o fmt.Println chama o método String() automaticamente
