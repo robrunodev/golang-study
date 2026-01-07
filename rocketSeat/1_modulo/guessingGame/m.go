@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("Jogo da Adivinhação")
 	fmt.Println("Um número aleatório será sorteado. Tente acertar. O Número é um inteiro entre 0 e 100")
 
-	x := rand.Int64N(51) // 0 a 50
+	x := rand.Int64N(101) // 0 a 100
 	scanner := bufio.NewScanner(os.Stdin)
 	chutes := [10]int64{}
 
